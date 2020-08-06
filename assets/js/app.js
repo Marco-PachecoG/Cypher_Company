@@ -136,9 +136,9 @@ $("form.php-email-form").submit(function (e) {
       return false;
     }*/
 
-  this_form.find(".sent-message").slideUp();
+  /*this_form.find(".sent-message").slideUp();
   this_form.find(".error-message").slideUp();
-  this_form.find(".loading").slideDown();
+  this_form.find(".loading").slideDown();*/
 
   /*if ( $(this).data('recaptcha-site-key') ) {
       var recaptcha_site_key = $(this).data('recaptcha-site-key');
@@ -166,7 +166,6 @@ function createCita() {
   let day = document.getElementById("day").value;
   let month = document.getElementById("month").value;
   let year = document.getElementById("year").value;
-  let time = document.getElementById("time").value;
   let message = document.getElementById("message").value;
 
   if (name.length > 0) {
